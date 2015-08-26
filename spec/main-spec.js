@@ -1,4 +1,5 @@
 var request = require( 'request' );
+
 describe( 'that we can connect to reddit', function() {
 
     it( "should connect to reddit top minimal wallpapers", function( done ) {
@@ -7,12 +8,6 @@ describe( 'that we can connect to reddit', function() {
             done();
         } );
     } );
-
-
-
-
-
-
 } );
 
 
