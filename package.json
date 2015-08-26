@@ -1,0 +1,23 @@
+{
+  "name": "reddit-wallpaper",
+  "version": "1.0.0",
+  "description": "little app that sets your desktop wallpaper to most popular reddit wallpaper (minimal) every 24 hours",
+  "main": "redditwallpaper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6footGeek/reddit-wallpaper.git"
+  },
+  "keywords": [
+    "reddit",
+    "wallpaper"
+  ],
+  "author": "6footgeek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/6footGeek/reddit-wallpaper/issues"
+  },
+  "homepage": "https://github.com/6footGeek/reddit-wallpaper#readme"
+}
