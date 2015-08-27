@@ -9,10 +9,3 @@ describe( 'that we can connect to reddit', function() {
         } );
     } );
 } );
-
-
-describe('general functionality', function() {
-	// it( 'should get the highest rated wallpaper and save it in a folder in pictures', function( error, response ) {
-
-	// });
-});
