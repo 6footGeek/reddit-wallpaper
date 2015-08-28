@@ -1,33 +1,30 @@
 {
-    "name": "node-travis-karma-jasmine",
+    "name": "reddit-wallpaper",
     "version": "1.0.0",
-    "description": "starter point for quick node testing with travis karma and jasmine",
-    "main": "main.js",
+    "description": "little app that sets your desktop wallpaper to most popular reddit wallpaper (minimal) every 24 hours",
+    "main": "redditwallpaper.js",
     "scripts": {
         "test": "./node_modules/karma/bin/karma spec/main-spec.js"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/6footGeek/node-travis-karma-jasmine.git"
+        "url": "git+https://github.com/6footGeek/reddit-wallpaper.git"
     },
     "keywords": [
-        "travis",
-        "node",
-        "karma",
-        "jasmine",
-        "project"
+        "reddit",
+        "wallpaper"
     ],
     "author": "6footgeek",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/6footGeek/node-travis-karma-jasmine/issues"
+        "url": "https://github.com/6footGeek/reddit-wallpaper/issues"
     },
-    "homepage": "https://github.com/6footGeek/node-travis-karma-jasmine#readme",
+    "homepage": "https://github.com/6footGeek/reddit-wallpaper#readme",
     "devDependencies": {
+        "request": "^2.61.0",
         "jasmine-core": "^2.3.2",
         "karma": "^0.12.31",
         "karma-firefox-launcher": "^0.1.4",
         "karma-jasmine": "^0.3.5"
 
     }
-}
